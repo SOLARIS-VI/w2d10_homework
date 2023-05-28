@@ -10,9 +10,10 @@ class TestSong(unittest.TestCase):
        self.song_3 = Song("Sleep Token", "Alkaline")
 
     
-    # def test_song_has_title(self):
-    #     self.assertEqual("Doomsday", self.song_1.title)
+    def test_song_has_title(self):
+        self.assertEqual("Doomsday", self.song_1.title)
 
 
-    # def test_song_has_artist(self):
-    #     self.assertEqual("Alkaline", self.song_2.artist)
+    def test_song_has_artist(self):
+        self.assertEqual("Avenged Sevenfold", self.song_2.artist)
+

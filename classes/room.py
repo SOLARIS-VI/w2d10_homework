@@ -11,10 +11,12 @@ class Room:
         self.guests.append(guest)
 
     
-    # def check_out_guest(self, guest):
-    #     if guest in self.guests:
-    #         self.guests.remove(guest)
+    def check_out_guest(self, guest):
+        if guest in self.guests:
+            self.guests.remove(guest)
     
 
-    # def add_song_to_room(self, song):
-    #     self.songs.append(song)
+    def add_song_to_room(self, song):
+        self.songs.append(song)
+
+        
